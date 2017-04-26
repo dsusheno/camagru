@@ -1,0 +1,43 @@
+footer {
+	background-color: #C9DCEB;
+ 	border: 2px solid #788D9E;
+ 	position: absolute;
+ 	margin-top: 80px;
+	bottom:10px;
+	width:99%;
+	font-size: 1vmax;
+}
+
+footer.image {
+	position: relative;
+}
+
+
+footer ul {
+	list-style: none;	
+ 	color: #788D9E;
+ 	margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+footer ul li {
+	float: left;
+}
+
+footer ul li a {
+	display: inline-block;
+	padding: 5px 5px;
+	text-align: center;
+	color: #576673;
+}
+
+footer ul li a:hover{
+    color: white;
+    background-color: #788D9E;
+}
+
+footer ul li.right {
+	float: right;
+	text-align: center;
+}

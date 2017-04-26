@@ -1,0 +1,32 @@
+table.profile {
+	width: 100%;
+	height: 90%;
+}
+
+table.profile td.left {
+	width:50%;
+	vertical-align: top;
+}
+
+table.profile td.right {
+	width:50%;
+	position: absolute;
+}
+
+#gallery_profile {
+	margin: 0 auto;
+	width:80%;
+	border:1px solid #788D9E;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+}
+
+img.gallery_profile {
+	width:	80%;
+	height: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 10px;
+	margin: 15px;
+}

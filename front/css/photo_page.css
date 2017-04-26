@@ -1,0 +1,184 @@
+#img_block {
+    padding: 50px 0px;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    margin: 0 auto;
+    width:	60%;
+    height: auto;
+    border:2px solid #788D9E;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+}
+
+#lived_comment {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #C9DCEB;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width:80%;
+}
+
+#lived_comment div.comment {
+	word-wrap: break-word;
+	background: #ECFFBF;
+}
+
+h4.login {
+	color: #46525C;
+  	font-family: 'Courier';
+  	font-size: 1vmax;
+  	text-align: left;
+  	margin-bottom: 10px;
+}
+
+h4.time {
+	color: #46525C;
+  	font-family: 'Courier';
+  	font-size: 0.7vmax;
+  	text-align: right;
+  	margin-bottom: 10px;
+}
+
+h5.comment {
+	color: #46525C;
+  	font-family: 'Courier';
+  	font-size: 0.8vmax;
+  	text-align: left;
+}
+
+table.login_time {
+	width:  100%;
+    border-spacing: 0;
+}
+
+table.text td {
+    width: 50%;
+    vertical-align: top;
+}
+td.rightcol { 
+    text-align: right;
+}
+
+img.img_block {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height:	auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 10px;
+}
+
+#leave_comment {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:80%;
+}
+
+#leave_comment input {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:100%;
+	height:	auto;
+}
+
+#leave_comment input.submit {
+	background: #788D9E;
+  	border: 0;
+  	width: 100%;
+  	margin-top: 20px;
+  	border-radius: 3px;
+  	color: #fff;
+  	font-size: 1vmax;
+  	cursor: pointer;
+}
+
+#img_block div.likes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height: auto;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 10px;
+}
+
+table.likes_table {
+  width: 100%;
+}
+
+
+button.likes_button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+  box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+  background-color:#637aad;
+  border:1px solid #314179;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:10px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+   width: 70px;
+}
+
+button.likes_button:hover {
+  background-color:#5972a7;
+}
+
+button.likes_button:active {
+  position:relative;
+  top:1px;
+}
+
+#img_block div.delete_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    text-align: right;  
+}
+
+button.delete {
+  -moz-box-shadow:inset 0px 1px 0px 0px #6A0000;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #6A0000;
+  box-shadow:inset 0px 1px 0px 0px #6A0000;
+  background-color:#B20000;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:10px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+  width: 70px;
+  border: none;
+}
+
+button.delete:hover {
+  background-color:#6A0000;
+}
+
+button.delete:active {
+  position:relative;
+  top:1px;
+}
+
+h3.login {
+  text-align: right;
+}
+
+h3.login_like {
+    text-align: left;
+    font-size: 1.2vmax;
+}

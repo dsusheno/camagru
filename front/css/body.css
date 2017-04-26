@@ -1,0 +1,90 @@
+body {background-color: #E3E3E3;}
+
+a {
+	text-decoration: none;
+}
+
+#signup {
+    width: 350px;
+    padding: 20px 20px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #6D7781;
+    font-size: 16px;
+    margin: auto;
+}
+
+#signup input{
+    padding: 20px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #435160;
+    outline: none;
+    color: #6D7781;
+    font-size: 16px;
+    margin: auto;
+    width: 100%;
+}
+
+#signup input.blue {
+  background: #788D9E;
+  border: 0;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1vmax;
+  cursor: pointer;
+}
+
+#signup input.submit {
+  background: #1FCE6D;
+  border: 0;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1vmax;
+  cursor: pointer;
+}
+
+
+#signup input.submit:hover {
+    background: #16aa56;
+}
+
+h2, #signup h2 {
+	color: #46525C;
+  	font-family: 'Sofia', cursive;
+  	font-size: 3vmax;
+  	text-align: center;
+  	margin-bottom: 10px;
+}
+
+h3, #signup h3 {
+	color: #46525C;
+  	font-family: 'Courier';
+  	font-size: 1.5vmax;
+  	text-align: center;
+  	margin-bottom: 10px;
+}
+
+input.submit {
+  background: #1FCE6D;
+  border: 0;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1vmax;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+	ul.header li, ul.header li.right, 
+	footer ul li, 
+	footer ul li.right{
+		float: none;
+		text-align: center;
+}

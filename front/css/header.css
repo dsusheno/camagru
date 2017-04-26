@@ -1,0 +1,37 @@
+ul.header {
+	margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #C9DCEB;
+ 	border: 2px solid #788D9E;
+ 	font-size: 2vmax;
+ 	color: #788D9E;
+ 	list-style: none;
+ 	font-family: 'Courier';
+ }
+
+ul.header li.right {
+	float: right;
+	text-align: center;
+}
+
+ul.header li {
+	float: left;
+}
+
+ul.header li a {
+	padding: 5px 5px;
+	display: inline-block;
+	text-align: center;
+	color: #576673;
+}
+
+ul.header li a:hover{
+	background-color: #788D9E;
+    color: white;
+}
+
+ul.header li a.act{
+	background-color: #788D9E;
+	color: white;
+}
